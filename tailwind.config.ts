@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Mo-Blind custom colors
+				"mo-teal": "#4FD8D4",
+				"mo-dark": "#222222",
+				"mo-amber": "#D4A76A",
+				"mo-light": "#D9D0C1",
+				"mo-beige": "#C4BFB0",
+				"mo-gray": "#7B7D7D",
+			},
+			backgroundImage: {
+				'hero-pattern': "url('/lovable-uploads/7852f550-7caf-440e-98d1-e74fd21de296.png')",
+				'hunters-pattern': "url('/lovable-uploads/c30ebe04-73a2-469a-a7cb-62d00d008e8a.png')",
+				'sunrise-pattern': "url('/lovable-uploads/485e6a89-6b28-4536-a241-74e58eb264a7.png')",
+				'foggy-pattern': "url('/lovable-uploads/354d9d8c-e992-490c-8a8d-db08122d42e5.png')",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +98,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 1.5s ease-out'
 			}
 		}
 	},
