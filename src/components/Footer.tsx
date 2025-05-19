@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <img 
-              src="/lovable-uploads/0b054249-8a58-4035-931e-a300e4ff00a2.png" 
+              src="/lovable-uploads/e2f38ca2-e1f4-47e6-9efb-d4da37c917c6.png" 
               alt="Mo-Blind Logo" 
               className="h-16 mb-4" 
             />

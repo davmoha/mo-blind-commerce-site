@@ -32,7 +32,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link to="/" className="relative flex items-center">
           <img 
-            src="/lovable-uploads/0b054249-8a58-4035-931e-a300e4ff00a2.png" 
+            src="/lovable-uploads/e2f38ca2-e1f4-47e6-9efb-d4da37c917c6.png" 
             alt="Mo-Blind Logo" 
             className="h-12 md:h-16" 
           />
